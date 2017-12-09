@@ -108,7 +108,7 @@ function TodoFactory(){
         if( angular.isDefined(data.email) ){
             result.rg = data.rg;
         }
-        if( angular.isDefined(data.email) ){
+        if( angular.isDefined(data.qtdChildrens) ){
             result.qtdChildrens = data.qtdChildrens;
         }
         return result;
